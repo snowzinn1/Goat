@@ -4,7 +4,7 @@ import Playgrounds
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            .font(FontesApp.title1)
     }
 }
 
@@ -12,6 +12,4 @@ struct ContentView: View {
     ContentView()
 }
 
-#Playground {
-    _ = 1 + 2
-}
+
